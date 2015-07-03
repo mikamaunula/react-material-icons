@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react');
-var mui = require('mui');
+var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
 var ImageFilter1 = React.createClass({
