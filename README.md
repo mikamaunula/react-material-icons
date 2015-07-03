@@ -2,6 +2,12 @@
 Material design icons as [material-ui](https://github.com/callemall/material-ui) SvgIcon component.
 Icon components build with iconbuilder tool from material-ui.
 
+## Installation
+
+```
+npm install react-material-icons
+```
+
 ## Usage
 
 ```js
