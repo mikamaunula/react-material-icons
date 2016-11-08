@@ -11,7 +11,7 @@ var DeviceSignalCellular2Bar = React.createClass({
     return React.createElement(
       SvgIcon,
       this.props,
-      React.createElement('path', { 'fill-opacity': '.3', d: 'M2 22h20V2z' }),
+      React.createElement('path', { 'fillOpacity': '.3', d: 'M2 22h20V2z' }),
       React.createElement('path', { d: 'M14 10L2 22h12z' })
     );
   }
