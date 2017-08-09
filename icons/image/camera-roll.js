@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCameraRoll = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCameraRoll = createClass({
   displayName: 'ImageCameraRoll',
 
   render: function render() {

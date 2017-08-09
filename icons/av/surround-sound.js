@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvSurroundSound = React.createClass({
+var createClass = require('create-react-class');
+
+var AvSurroundSound = createClass({
   displayName: 'AvSurroundSound',
 
   render: function render() {

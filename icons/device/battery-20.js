@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceBattery20 = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceBattery20 = createClass({
   displayName: 'DeviceBattery20',
 
   render: function render() {

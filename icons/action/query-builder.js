@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionQueryBuilder = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionQueryBuilder = createClass({
   displayName: 'ActionQueryBuilder',
 
   render: function render() {

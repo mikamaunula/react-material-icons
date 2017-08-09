@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareTv = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareTv = createClass({
   displayName: 'HardwareTv',
 
   render: function render() {

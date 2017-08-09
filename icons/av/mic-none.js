@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvMicNone = React.createClass({
+var createClass = require('create-react-class');
+
+var AvMicNone = createClass({
   displayName: 'AvMicNone',
 
   render: function render() {

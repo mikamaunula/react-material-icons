@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionOfflinePin = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionOfflinePin = createClass({
   displayName: 'ActionOfflinePin',
 
   render: function render() {

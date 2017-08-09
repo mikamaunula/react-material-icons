@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ToggleRadioButtonChecked = React.createClass({
+var createClass = require('create-react-class');
+
+var ToggleRadioButtonChecked = createClass({
   displayName: 'ToggleRadioButtonChecked',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionTurnedInNot = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionTurnedInNot = createClass({
   displayName: 'ActionTurnedInNot',
 
   render: function render() {

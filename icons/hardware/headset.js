@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareHeadset = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareHeadset = createClass({
   displayName: 'HardwareHeadset',
 
   render: function render() {

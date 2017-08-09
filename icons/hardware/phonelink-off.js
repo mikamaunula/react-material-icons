@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwarePhonelinkOff = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwarePhonelinkOff = createClass({
   displayName: 'HardwarePhonelinkOff',
 
   render: function render() {

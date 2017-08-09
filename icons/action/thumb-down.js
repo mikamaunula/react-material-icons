@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionThumbDown = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionThumbDown = createClass({
   displayName: 'ActionThumbDown',
 
   render: function render() {

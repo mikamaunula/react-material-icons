@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var FileCloudDownload = React.createClass({
+var createClass = require('create-react-class');
+
+var FileCloudDownload = createClass({
   displayName: 'FileCloudDownload',
 
   render: function render() {

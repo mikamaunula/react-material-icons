@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionCheckCircle = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionCheckCircle = createClass({
   displayName: 'ActionCheckCircle',
 
   render: function render() {

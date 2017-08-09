@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionHttp = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionHttp = createClass({
   displayName: 'ActionHttp',
 
   render: function render() {

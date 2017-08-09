@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvPlaylistAdd = React.createClass({
+var createClass = require('create-react-class');
+
+var AvPlaylistAdd = createClass({
   displayName: 'AvPlaylistAdd',
 
   render: function render() {

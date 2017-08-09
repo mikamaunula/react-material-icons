@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionViewQuilt = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionViewQuilt = createClass({
   displayName: 'ActionViewQuilt',
 
   render: function render() {

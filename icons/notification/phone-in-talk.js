@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NotificationPhoneInTalk = React.createClass({
+var createClass = require('create-react-class');
+
+var NotificationPhoneInTalk = createClass({
   displayName: 'NotificationPhoneInTalk',
 
   render: function render() {

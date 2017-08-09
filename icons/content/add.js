@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ContentAdd = React.createClass({
+var createClass = require('create-react-class');
+
+var ContentAdd = createClass({
   displayName: 'ContentAdd',
 
   render: function render() {

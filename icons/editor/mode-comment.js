@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorModeComment = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorModeComment = createClass({
   displayName: 'EditorModeComment',
 
   render: function render() {

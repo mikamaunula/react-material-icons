@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvClosedCaption = React.createClass({
+var createClass = require('create-react-class');
+
+var AvClosedCaption = createClass({
   displayName: 'AvClosedCaption',
 
   render: function render() {

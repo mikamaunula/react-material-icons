@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ContentFontDownload = React.createClass({
+var createClass = require('create-react-class');
+
+var ContentFontDownload = createClass({
   displayName: 'ContentFontDownload',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvPauseCircleOutline = React.createClass({
+var createClass = require('create-react-class');
+
+var AvPauseCircleOutline = createClass({
   displayName: 'AvPauseCircleOutline',
 
   render: function render() {

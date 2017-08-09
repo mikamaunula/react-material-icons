@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var FileCloudCircle = React.createClass({
+var createClass = require('create-react-class');
+
+var FileCloudCircle = createClass({
   displayName: 'FileCloudCircle',
 
   render: function render() {

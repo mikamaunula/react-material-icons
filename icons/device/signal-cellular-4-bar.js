@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceSignalCellular4Bar = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceSignalCellular4Bar = createClass({
   displayName: 'DeviceSignalCellular4Bar',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionFlipToBack = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionFlipToBack = createClass({
   displayName: 'ActionFlipToBack',
 
   render: function render() {

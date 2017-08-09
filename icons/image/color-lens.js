@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageColorLens = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageColorLens = createClass({
   displayName: 'ImageColorLens',
 
   render: function render() {

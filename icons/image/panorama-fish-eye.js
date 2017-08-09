@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImagePanoramaFishEye = React.createClass({
+var createClass = require('create-react-class');
+
+var ImagePanoramaFishEye = createClass({
   displayName: 'ImagePanoramaFishEye',
 
   render: function render() {

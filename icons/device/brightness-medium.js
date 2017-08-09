@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceBrightnessMedium = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceBrightnessMedium = createClass({
   displayName: 'DeviceBrightnessMedium',
 
   render: function render() {

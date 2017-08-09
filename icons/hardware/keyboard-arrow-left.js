@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareKeyboardArrowLeft = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareKeyboardArrowLeft = createClass({
   displayName: 'HardwareKeyboardArrowLeft',
 
   render: function render() {

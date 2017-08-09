@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionViewHeadline = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionViewHeadline = createClass({
   displayName: 'ActionViewHeadline',
 
   render: function render() {

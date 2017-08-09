@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceLocationSearching = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceLocationSearching = createClass({
   displayName: 'DeviceLocationSearching',
 
   render: function render() {

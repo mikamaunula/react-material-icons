@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationPhonelinkRing = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationPhonelinkRing = createClass({
   displayName: 'CommunicationPhonelinkRing',
 
   render: function render() {

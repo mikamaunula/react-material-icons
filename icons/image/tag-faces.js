@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageTagFaces = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageTagFaces = createClass({
   displayName: 'ImageTagFaces',
 
   render: function render() {

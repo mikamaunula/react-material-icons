@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionLockOutline = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionLockOutline = createClass({
   displayName: 'ActionLockOutline',
 
   render: function render() {

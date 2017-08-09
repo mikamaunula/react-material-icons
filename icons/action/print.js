@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionPrint = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionPrint = createClass({
   displayName: 'ActionPrint',
 
   render: function render() {

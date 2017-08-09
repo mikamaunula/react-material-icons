@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationPhone = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationPhone = createClass({
   displayName: 'CommunicationPhone',
 
   render: function render() {

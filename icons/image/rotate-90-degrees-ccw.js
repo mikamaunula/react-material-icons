@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageRotate90DegreesCcw = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageRotate90DegreesCcw = createClass({
   displayName: 'ImageRotate90DegreesCcw',
 
   render: function render() {

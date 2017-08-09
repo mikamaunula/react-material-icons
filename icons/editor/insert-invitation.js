@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorInsertInvitation = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorInsertInvitation = createClass({
   displayName: 'EditorInsertInvitation',
 
   render: function render() {

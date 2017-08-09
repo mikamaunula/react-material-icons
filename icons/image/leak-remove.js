@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageLeakRemove = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageLeakRemove = createClass({
   displayName: 'ImageLeakRemove',
 
   render: function render() {

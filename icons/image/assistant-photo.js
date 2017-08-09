@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageAssistantPhoto = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageAssistantPhoto = createClass({
   displayName: 'ImageAssistantPhoto',
 
   render: function render() {

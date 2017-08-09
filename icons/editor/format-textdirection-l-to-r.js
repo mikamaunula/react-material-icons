@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorFormatTextdirectionLToR = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorFormatTextdirectionLToR = createClass({
   displayName: 'EditorFormatTextdirectionLToR',
 
   render: function render() {

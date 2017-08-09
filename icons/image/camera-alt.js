@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCameraAlt = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCameraAlt = createClass({
   displayName: 'ImageCameraAlt',
 
   render: function render() {

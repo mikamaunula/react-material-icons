@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCropFree = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCropFree = createClass({
   displayName: 'ImageCropFree',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSettingsBackupRestore = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSettingsBackupRestore = createClass({
   displayName: 'ActionSettingsBackupRestore',
 
   render: function render() {

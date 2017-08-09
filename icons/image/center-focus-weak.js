@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCenterFocusWeak = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCenterFocusWeak = createClass({
   displayName: 'ImageCenterFocusWeak',
 
   render: function render() {

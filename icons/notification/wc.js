@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NotificationWc = React.createClass({
+var createClass = require('create-react-class');
+
+var NotificationWc = createClass({
   displayName: 'NotificationWc',
 
   render: function render() {

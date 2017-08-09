@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var SocialNotificationsActive = React.createClass({
+var createClass = require('create-react-class');
+
+var SocialNotificationsActive = createClass({
   displayName: 'SocialNotificationsActive',
 
   render: function render() {

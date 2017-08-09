@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var MapsLayers = React.createClass({
+var createClass = require('create-react-class');
+
+var MapsLayers = createClass({
   displayName: 'MapsLayers',
 
   render: function render() {

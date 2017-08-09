@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NavigationArrowDropDown = React.createClass({
+var createClass = require('create-react-class');
+
+var NavigationArrowDropDown = createClass({
   displayName: 'NavigationArrowDropDown',
 
   render: function render() {

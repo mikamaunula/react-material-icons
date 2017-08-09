@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareDesktopWindows = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareDesktopWindows = createClass({
   displayName: 'HardwareDesktopWindows',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorVerticalAlignBottom = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorVerticalAlignBottom = createClass({
   displayName: 'EditorVerticalAlignBottom',
 
   render: function render() {

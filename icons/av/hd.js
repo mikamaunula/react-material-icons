@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvHd = React.createClass({
+var createClass = require('create-react-class');
+
+var AvHd = createClass({
   displayName: 'AvHd',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareRouter = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareRouter = createClass({
   displayName: 'HardwareRouter',
 
   render: function render() {

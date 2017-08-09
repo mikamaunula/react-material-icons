@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSettingsPower = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSettingsPower = createClass({
   displayName: 'ActionSettingsPower',
 
   render: function render() {

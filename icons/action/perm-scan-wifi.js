@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionPermScanWifi = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionPermScanWifi = createClass({
   displayName: 'ActionPermScanWifi',
 
   render: function render() {

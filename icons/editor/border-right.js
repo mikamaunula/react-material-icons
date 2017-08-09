@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorBorderRight = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorBorderRight = createClass({
   displayName: 'EditorBorderRight',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImagePhotoSizeSelectActual = React.createClass({
+var createClass = require('create-react-class');
+
+var ImagePhotoSizeSelectActual = createClass({
   displayName: 'ImagePhotoSizeSelectActual',
 
   render: function render() {

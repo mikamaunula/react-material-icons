@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorInsertDriveFile = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorInsertDriveFile = createClass({
   displayName: 'EditorInsertDriveFile',
 
   render: function render() {

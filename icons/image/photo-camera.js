@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImagePhotoCamera = React.createClass({
+var createClass = require('create-react-class');
+
+var ImagePhotoCamera = createClass({
   displayName: 'ImagePhotoCamera',
 
   render: function render() {

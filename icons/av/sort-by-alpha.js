@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvSortByAlpha = React.createClass({
+var createClass = require('create-react-class');
+
+var AvSortByAlpha = createClass({
   displayName: 'AvSortByAlpha',
 
   render: function render() {

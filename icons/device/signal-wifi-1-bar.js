@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceSignalWifi1Bar = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceSignalWifi1Bar = createClass({
   displayName: 'DeviceSignalWifi1Bar',
 
   render: function render() {

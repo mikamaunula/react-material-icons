@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationLocationOff = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationLocationOff = createClass({
   displayName: 'CommunicationLocationOff',
 
   render: function render() {

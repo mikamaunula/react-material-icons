@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionInvertColors = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionInvertColors = createClass({
   displayName: 'ActionInvertColors',
 
   render: function render() {

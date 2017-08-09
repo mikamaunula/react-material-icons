@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceAccessTime = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceAccessTime = createClass({
   displayName: 'DeviceAccessTime',
 
   render: function render() {

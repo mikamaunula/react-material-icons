@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ContentMarkunread = React.createClass({
+var createClass = require('create-react-class');
+
+var ContentMarkunread = createClass({
   displayName: 'ContentMarkunread',
 
   render: function render() {

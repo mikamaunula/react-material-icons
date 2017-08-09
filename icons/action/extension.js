@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionExtension = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionExtension = createClass({
   displayName: 'ActionExtension',
 
   render: function render() {

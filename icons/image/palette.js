@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImagePalette = React.createClass({
+var createClass = require('create-react-class');
+
+var ImagePalette = createClass({
   displayName: 'ImagePalette',
 
   render: function render() {

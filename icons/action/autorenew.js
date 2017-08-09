@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionAutorenew = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionAutorenew = createClass({
   displayName: 'ActionAutorenew',
 
   render: function render() {

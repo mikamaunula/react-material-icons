@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationPhonelinkErase = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationPhonelinkErase = createClass({
   displayName: 'CommunicationPhonelinkErase',
 
   render: function render() {
