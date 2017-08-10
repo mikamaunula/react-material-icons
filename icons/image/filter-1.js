@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageFilter1 = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageFilter1 = createClass({
   displayName: 'ImageFilter1',
 
   render: function render() {

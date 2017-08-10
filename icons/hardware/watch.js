@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareWatch = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareWatch = createClass({
   displayName: 'HardwareWatch',
 
   render: function render() {

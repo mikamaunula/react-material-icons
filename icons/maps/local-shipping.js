@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var MapsLocalShipping = React.createClass({
+var createClass = require('create-react-class');
+
+var MapsLocalShipping = createClass({
   displayName: 'MapsLocalShipping',
 
   render: function render() {

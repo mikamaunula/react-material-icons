@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareLaptop = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareLaptop = createClass({
   displayName: 'HardwareLaptop',
 
   render: function render() {

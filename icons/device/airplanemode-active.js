@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceAirplanemodeActive = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceAirplanemodeActive = createClass({
   displayName: 'DeviceAirplanemodeActive',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorFormatQuote = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorFormatQuote = createClass({
   displayName: 'EditorFormatQuote',
 
   render: function render() {

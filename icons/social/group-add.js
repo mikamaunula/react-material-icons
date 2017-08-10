@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var SocialGroupAdd = React.createClass({
+var createClass = require('create-react-class');
+
+var SocialGroupAdd = createClass({
   displayName: 'SocialGroupAdd',
 
   render: function render() {

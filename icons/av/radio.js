@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvRadio = React.createClass({
+var createClass = require('create-react-class');
+
+var AvRadio = createClass({
   displayName: 'AvRadio',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionCardMembership = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionCardMembership = createClass({
   displayName: 'ActionCardMembership',
 
   render: function render() {

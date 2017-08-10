@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageTimer10 = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageTimer10 = createClass({
   displayName: 'ImageTimer10',
 
   render: function render() {

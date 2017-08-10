@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceWallpaper = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceWallpaper = createClass({
   displayName: 'DeviceWallpaper',
 
   render: function render() {

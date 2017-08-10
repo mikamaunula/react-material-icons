@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorInsertLink = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorInsertLink = createClass({
   displayName: 'EditorInsertLink',
 
   render: function render() {

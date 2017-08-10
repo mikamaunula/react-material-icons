@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceWidgets = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceWidgets = createClass({
   displayName: 'DeviceWidgets',
 
   render: function render() {

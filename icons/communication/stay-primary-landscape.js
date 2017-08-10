@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationStayPrimaryLandscape = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationStayPrimaryLandscape = createClass({
   displayName: 'CommunicationStayPrimaryLandscape',
 
   render: function render() {

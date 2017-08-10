@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSettingsApplications = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSettingsApplications = createClass({
   displayName: 'ActionSettingsApplications',
 
   render: function render() {

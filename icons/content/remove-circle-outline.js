@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ContentRemoveCircleOutline = React.createClass({
+var createClass = require('create-react-class');
+
+var ContentRemoveCircleOutline = createClass({
   displayName: 'ContentRemoveCircleOutline',
 
   render: function render() {

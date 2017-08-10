@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var FileFolder = React.createClass({
+var createClass = require('create-react-class');
+
+var FileFolder = createClass({
   displayName: 'FileFolder',
 
   render: function render() {

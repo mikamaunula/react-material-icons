@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionViewCarousel = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionViewCarousel = createClass({
   displayName: 'ActionViewCarousel',
 
   render: function render() {

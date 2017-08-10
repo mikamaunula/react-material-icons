@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvQueueMusic = React.createClass({
+var createClass = require('create-react-class');
+
+var AvQueueMusic = createClass({
   displayName: 'AvQueueMusic',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageExposurePlus1 = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageExposurePlus1 = createClass({
   displayName: 'ImageExposurePlus1',
 
   render: function render() {

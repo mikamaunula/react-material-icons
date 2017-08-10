@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionTrendingDown = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionTrendingDown = createClass({
   displayName: 'ActionTrendingDown',
 
   render: function render() {

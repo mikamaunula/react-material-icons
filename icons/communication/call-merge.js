@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationCallMerge = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationCallMerge = createClass({
   displayName: 'CommunicationCallMerge',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImagePictureAsPdf = React.createClass({
+var createClass = require('create-react-class');
+
+var ImagePictureAsPdf = createClass({
   displayName: 'ImagePictureAsPdf',
 
   render: function render() {

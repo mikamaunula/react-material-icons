@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCenterFocusStrong = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCenterFocusStrong = createClass({
   displayName: 'ImageCenterFocusStrong',
 
   render: function render() {

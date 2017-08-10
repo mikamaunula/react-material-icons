@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionHelpOutline = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionHelpOutline = createClass({
   displayName: 'ActionHelpOutline',
 
   render: function render() {

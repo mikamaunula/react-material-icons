@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AlertErrorOutline = React.createClass({
+var createClass = require('create-react-class');
+
+var AlertErrorOutline = createClass({
   displayName: 'AlertErrorOutline',
 
   render: function render() {

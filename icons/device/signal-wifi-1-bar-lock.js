@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceSignalWifi1BarLock = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceSignalWifi1BarLock = createClass({
   displayName: 'DeviceSignalWifi1BarLock',
 
   render: function render() {

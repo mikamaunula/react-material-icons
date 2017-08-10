@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageCrop169 = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageCrop169 = createClass({
   displayName: 'ImageCrop169',
 
   render: function render() {

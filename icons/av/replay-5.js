@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvReplay5 = React.createClass({
+var createClass = require('create-react-class');
+
+var AvReplay5 = createClass({
   displayName: 'AvReplay5',
 
   render: function render() {

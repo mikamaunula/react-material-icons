@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvMicOff = React.createClass({
+var createClass = require('create-react-class');
+
+var AvMicOff = createClass({
   displayName: 'AvMicOff',
 
   render: function render() {

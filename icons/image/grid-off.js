@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageGridOff = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageGridOff = createClass({
   displayName: 'ImageGridOff',
 
   render: function render() {

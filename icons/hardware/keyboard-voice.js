@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareKeyboardVoice = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareKeyboardVoice = createClass({
   displayName: 'HardwareKeyboardVoice',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NavigationArrowForward = React.createClass({
+var createClass = require('create-react-class');
+
+var NavigationArrowForward = createClass({
   displayName: 'NavigationArrowForward',
 
   render: function render() {

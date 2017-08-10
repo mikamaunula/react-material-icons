@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvStop = React.createClass({
+var createClass = require('create-react-class');
+
+var AvStop = createClass({
   displayName: 'AvStop',
 
   render: function render() {

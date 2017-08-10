@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionViewWeek = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionViewWeek = createClass({
   displayName: 'ActionViewWeek',
 
   render: function render() {

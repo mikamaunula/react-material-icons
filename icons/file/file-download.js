@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var FileFileDownload = React.createClass({
+var createClass = require('create-react-class');
+
+var FileFileDownload = createClass({
   displayName: 'FileFileDownload',
 
   render: function render() {

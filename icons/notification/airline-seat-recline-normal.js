@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NotificationAirlineSeatReclineNormal = React.createClass({
+var createClass = require('create-react-class');
+
+var NotificationAirlineSeatReclineNormal = createClass({
   displayName: 'NotificationAirlineSeatReclineNormal',
 
   render: function render() {

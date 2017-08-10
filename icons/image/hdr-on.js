@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageHdrOn = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageHdrOn = createClass({
   displayName: 'ImageHdrOn',
 
   render: function render() {

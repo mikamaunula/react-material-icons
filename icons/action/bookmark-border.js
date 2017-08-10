@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionBookmarkBorder = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionBookmarkBorder = createClass({
   displayName: 'ActionBookmarkBorder',
 
   render: function render() {

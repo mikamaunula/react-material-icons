@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageNaturePeople = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageNaturePeople = createClass({
   displayName: 'ImageNaturePeople',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareSecurity = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareSecurity = createClass({
   displayName: 'HardwareSecurity',
 
   render: function render() {

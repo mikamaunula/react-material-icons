@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageBrightness4 = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageBrightness4 = createClass({
   displayName: 'ImageBrightness4',
 
   render: function render() {

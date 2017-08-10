@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var HardwareCast = React.createClass({
+var createClass = require('create-react-class');
+
+var HardwareCast = createClass({
   displayName: 'HardwareCast',
 
   render: function render() {

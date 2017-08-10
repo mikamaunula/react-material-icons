@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSettingsCell = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSettingsCell = createClass({
   displayName: 'ActionSettingsCell',
 
   render: function render() {

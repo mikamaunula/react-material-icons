@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var NotificationDoNotDisturbAlt = React.createClass({
+var createClass = require('create-react-class');
+
+var NotificationDoNotDisturbAlt = createClass({
   displayName: 'NotificationDoNotDisturbAlt',
 
   render: function render() {

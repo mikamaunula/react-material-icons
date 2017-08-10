@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorFormatColorText = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorFormatColorText = createClass({
   displayName: 'EditorFormatColorText',
 
   render: function render() {

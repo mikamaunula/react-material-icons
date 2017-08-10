@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var CommunicationChatBubble = React.createClass({
+var createClass = require('create-react-class');
+
+var CommunicationChatBubble = createClass({
   displayName: 'CommunicationChatBubble',
 
   render: function render() {

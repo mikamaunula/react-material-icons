@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageSwitchVideo = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageSwitchVideo = createClass({
   displayName: 'ImageSwitchVideo',
 
   render: function render() {

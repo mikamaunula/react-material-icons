@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvVolumeDown = React.createClass({
+var createClass = require('create-react-class');
+
+var AvVolumeDown = createClass({
   displayName: 'AvVolumeDown',
 
   render: function render() {

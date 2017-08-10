@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionReceipt = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionReceipt = createClass({
   displayName: 'ActionReceipt',
 
   render: function render() {

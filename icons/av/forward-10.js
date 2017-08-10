@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var AvForward10 = React.createClass({
+var createClass = require('create-react-class');
+
+var AvForward10 = createClass({
   displayName: 'AvForward10',
 
   render: function render() {

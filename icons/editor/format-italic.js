@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorFormatItalic = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorFormatItalic = createClass({
   displayName: 'EditorFormatItalic',
 
   render: function render() {

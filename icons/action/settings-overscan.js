@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSettingsOverscan = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSettingsOverscan = createClass({
   displayName: 'ActionSettingsOverscan',
 
   render: function render() {

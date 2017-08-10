@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var FileFileUpload = React.createClass({
+var createClass = require('create-react-class');
+
+var FileFileUpload = createClass({
   displayName: 'FileFileUpload',
 
   render: function render() {

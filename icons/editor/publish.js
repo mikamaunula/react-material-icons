@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorPublish = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorPublish = createClass({
   displayName: 'EditorPublish',
 
   render: function render() {

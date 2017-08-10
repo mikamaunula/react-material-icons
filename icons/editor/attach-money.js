@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorAttachMoney = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorAttachMoney = createClass({
   displayName: 'EditorAttachMoney',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageVignette = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageVignette = createClass({
   displayName: 'ImageVignette',
 
   render: function render() {

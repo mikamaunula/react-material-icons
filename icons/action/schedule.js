@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSchedule = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSchedule = createClass({
   displayName: 'ActionSchedule',
 
   render: function render() {

@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceNetworkCell = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceNetworkCell = createClass({
   displayName: 'DeviceNetworkCell',
 
   render: function render() {

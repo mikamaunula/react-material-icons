@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ActionSwapHoriz = React.createClass({
+var createClass = require('create-react-class');
+
+var ActionSwapHoriz = createClass({
   displayName: 'ActionSwapHoriz',
 
   render: function render() {

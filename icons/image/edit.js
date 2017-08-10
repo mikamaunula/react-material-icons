@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ImageEdit = React.createClass({
+var createClass = require('create-react-class');
+
+var ImageEdit = createClass({
   displayName: 'ImageEdit',
 
   render: function render() {

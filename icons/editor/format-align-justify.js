@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var EditorFormatAlignJustify = React.createClass({
+var createClass = require('create-react-class');
+
+var EditorFormatAlignJustify = createClass({
   displayName: 'EditorFormatAlignJustify',
 
   render: function render() {

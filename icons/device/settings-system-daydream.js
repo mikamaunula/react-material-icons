@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var DeviceSettingsSystemDaydream = React.createClass({
+var createClass = require('create-react-class');
+
+var DeviceSettingsSystemDaydream = createClass({
   displayName: 'DeviceSettingsSystemDaydream',
 
   render: function render() {

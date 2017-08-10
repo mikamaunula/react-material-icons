@@ -4,7 +4,9 @@ var React = require('react');
 var mui = require('material-ui');
 var SvgIcon = mui.SvgIcon;
 
-var ToggleCheckBoxOutlineBlank = React.createClass({
+var createClass = require('create-react-class');
+
+var ToggleCheckBoxOutlineBlank = createClass({
   displayName: 'ToggleCheckBoxOutlineBlank',
 
   render: function render() {
